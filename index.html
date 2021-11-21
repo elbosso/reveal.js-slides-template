@@ -20,6 +20,19 @@
     ## markdown Slide 3
   </textarea>
 </section>
+<section data-markdown>
+                       <script type="text/template">
+                           ```php [1-6|3-5]
+                           public function foo()
+                           {
+                               $foo = array(
+                                   'bar' => 'bar'
+                               )
+                           }
+                           ```
+                       </script>
+                   </section>
+  
             <section data-markdown="example.md"
                  data-separator="^\r?\n--\r?\n$"
                  data-separator-vertical="^\r?\n---\r?\n$"
@@ -46,6 +59,11 @@
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
+        // Options which are passed into marked
+	// See https://marked.js.org/#/USING_ADVANCED.md#options
+	markdown: {
+		smartypants: true
+	}
       });
     </script>
   </body>
