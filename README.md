@@ -14,3 +14,7 @@ Whenever you commit changes to the project, it is rebuilt via a Ci/CD pipeline s
 You will - regardless wether you forked or used the template - have to edit the link to the live presentation here:
 
 [Live](https://elbosso.github.io/slides)
+
+You can of cours write the presentation locally and dont have to wait fpor the github pipeline to run after each commit - for that you just have to open [index.html](index.html) in a recent browser.
+But beware: It might not work out of the box there as for example firefox blocks loading local files because of 
+[CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp).
