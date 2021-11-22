@@ -1,42 +1,18 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="reveal.js/dist/theme/white.css">
-    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css">
 </head>
 
 <body>
     <div class="reveal">
         <div class="slides">
-            <section>Slide 1</section>
-            <section>Slide 2</section>
-            <section data-markdown>
-  <textarea data-template>
-    ## markdown Slide 1
-    A paragraph with some text and a [link](http://hakim.se).
-    ---
-    ## markdown Slide 2
-    ---
-    ## markdown Slide 3
-  </textarea>
-</section>
-<section data-markdown>
-                       <script type="text/template">
-                           ```php [1-6|3-5]
-                           public function foo()
-                           {
-                               $foo = array(
-                                   'bar' => 'bar'
-                               )
-                           }
-                           ```
-                       </script>
-                   </section>
-  
-            <section data-markdown="example.md"
-                 data-separator="^\n\n\n"
-                 data-separator-vertical="^\n\n"
+            <section data-markdown="slides.md"
+                 data-separator="^\r?\n--\r?\n$"
+                 data-separator-vertical="^\r?\n---\r?\n$"
                  data-separator-notes="^Note:"
                  data-charset="UTF-8">
     <!--
@@ -46,11 +22,11 @@
             </section>
         </div>
     </div>
-    <script src="reveal.js/dist/reveal.js"></script>
-    <script src="reveal.js/plugin/notes/notes.js"></script>
-    <script src="reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="reveal.js/plugin/highlight/highlight.js"></script>
-    <script src="reveal.js/plugin/zoom/zoom.js"></script>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
     <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
@@ -70,3 +46,4 @@
   </body>
 
 </html>
+
