@@ -119,19 +119,10 @@ with forced line break!
 
 *  Question One?<!-- .element: class="fragment mdfa fa-question-circle"-->
 *  Answer One!<!-- .element: class="fragment mdfa fa-exclamation-circle"-->
-*  Question One?<!-- .element: class="fragment mdfa fa-question-circle"-->
-*  Answer One!<!-- .element: class="fragment mdfa fa-exclamation-circle"-->
-*  Question One?<!-- .element: class="fragment mdfa fa-question-circle"-->
-*  Answer One!<!-- .element: class="fragment mdfa fa-exclamation-circle"-->
-
---
-
-## Being subtle
-
-* Point a
-* Point b  
-(but that is not important)<!-- .element: class="decent x-small"-->
-* Point c
+*  Question Two?<!-- .element: class="fragment mdfa fa-question-circle"-->
+*  Answer Two!<!-- .element: class="fragment mdfa fa-exclamation-circle"-->
+*  Question Three?<!-- .element: class="fragment mdfa fa-question-circle"-->
+*  Answer Three!<!-- .element: class="fragment mdfa fa-exclamation-circle"-->
 
 --
 
