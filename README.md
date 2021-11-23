@@ -14,7 +14,7 @@ Whenever you commit changes to the project, it is rebuilt via a CI/CD pipeline s
 
 You will - regardless whether you forked or used the template - have to edit the link to the live presentation here:
 
-[Live](https://elbosso.github.io/slides)
+[Live](https://elbosso.github.io/reveal.js-slides-template)
 
 You can of course write the presentation locally and dont have to wait for the github pipeline to run after each commit - 
 for that you just have to open [index.html](index.html) in a recent browser.
