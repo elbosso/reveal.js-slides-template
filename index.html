@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="reveal.js/dist/theme/white.css">
 	<link rel="stylesheet" href="css/highlight/atom-one-light.css">
+	<link rel="stylesheet" href="css/customizations.css">
+	<link rel="stylesheet" href="css/fonts/fontawesome/css/fontawesome.min.css">
 </head>
 
 <body>
+
     <div class="reveal">
         <div class="slides">
             <section data-markdown="slides.md"
@@ -17,10 +20,6 @@
                  data-separator-vertical="^---$"
                  data-separator-notes="^Note:"
                  data-charset="UTF-8">
-    <!--
-        Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
-        For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-    -->
             </section>
         </div>
     </div>
@@ -46,6 +45,48 @@
 	}
       });
     </script>
+    <!--https://github.com/hakimel/reveal.js/issues/806-->
+	<style type="text/css">
+		/* 1. Style header/footer <div> so they are positioned as desired. */
+		#header-left {
+		    position: absolute;
+		    top: 0%;
+		    left: 0%;
+		}
+		#header-right {
+		    position: absolute;
+		    top: 0%;
+		    right: 0%;
+		}
+		#footer-left {
+		    position: absolute;
+		    bottom: 0%;
+		    left: 0%;
+		}
+	</style>
+
+	<!-- 2. Create hidden header/footer <div> -->
+	<div id="hidden" style="display:none;">
+		<div id="header">
+		    <div id="header-left"></div>
+		    <div id="header-right"></div>
+		    <div id="footer-left"></div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript">
+		// 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+		var header = $('#header').html();
+		if ( window.location.search.match( /print-pdf/gi ) ) {
+		    Reveal.addEventListener( 'ready', function( event ) {
+		        $('.slide-background').append(header);
+		    });
+		}
+		else {
+		    $('div.reveal').append(header);
+	   }
+	</script>
   </body>
 
 </html>
