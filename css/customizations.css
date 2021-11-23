@@ -1,5 +1,5 @@
 li.co {
-	font-size:67%;
+	font-size:0.67em;
 	list-style-type: none;
 	text-indent: -1em;
 	padding-left: 1em;
@@ -18,10 +18,16 @@ li.mdfa {
     font-style: normal;
 }
 .x-small{
-font-size: 83% !important;
+font-size: 0.83em !important;
 }
 .xx-small{
-font-size: 70% !important;
+font-size: 0.70em !important;
+}
+.xxx-small{
+font-size: 0.58em !important;
+}
+.xxxx-small{
+font-size: 0.48em !important;
 }
 .decent{
 color: #808080a0;

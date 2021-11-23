@@ -270,11 +270,5 @@ Slide at a convex angle
 Slide at a convex angle
 * concave<!-- .element: class="xx-small"-->  
 Slide at a concave angle
---
 
-# Thanks & Credits
-
-* [reveal.js](https://revealjs.com/)
-* [highlight.js](https://highlightjs.org/)
-* [fontawesome](https://fontawesome.com/)
 
