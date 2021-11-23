@@ -9,11 +9,13 @@
 ## Quotes
 
 > Quotes are ~~hard~~ easy
-> to write
+> to write - but you can use `code`
 
 ---
 
 ## Styles
+
+You can freely mix **bold**, *italics*, `code` and normal styles
 
 * normal
 * **bold**
