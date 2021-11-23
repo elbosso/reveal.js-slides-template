@@ -62,6 +62,7 @@ custom numbering
 3. c
 
 ---
+
 ## Definition Lists
 
 (actually: line breaks in long lines in lists...)
@@ -154,7 +155,7 @@ public static void main(String[] args)
     let c = x => 1 + 2 + x;
     c(3);
 ```
-    
+
 ---
 
 ## Callouts 
@@ -275,28 +276,36 @@ Slide at a convex angle
 Slide at a concave angle
 * zoom<!-- .element: class="xx-small"-->  
 Scale the incoming slide up so it grows in from the center of the screen
+
 ---
+
 <!-- .slide:  data-transition="slide"-->
 ### and on …
 * none<!-- .element: class="xx-small"-->  
 Switch backgrounds instantly
 * fade<!-- .element: class="xx-small"-->  
 Cross fade — default for background transitions
+
 ---
+
 <!-- .slide:  data-transition="convex-in concave-out"-->
 ### and stops.
 * fade<!-- .element: class="xx-small"-->  
 Cross fade — default for background transitions
 * slide<!-- .element: class="xx-small"-->  
 Slide between backgrounds — default for slide transitions
+
 ---
+
 <!-- .slide:  data-transition="fade-in fade-out"-->
 ### (Passengers entering and leaving)
 * slide<!-- .element: class="xx-small"-->  
 Slide between backgrounds — default for slide transitions
 * convex<!-- .element: class="xx-small"-->  
 Slide at a convex angle
+
 ---
+
 <!-- .slide:  data-transition="fade"-->
 ### And it starts again.
 * convex<!-- .element: class="xx-small"-->  
