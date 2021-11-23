@@ -104,6 +104,14 @@ with forced line break!
 
 --
 
+## Being subtle
+
+* Point a
+* Point b  
+(but that is not important)<!-- .element: class="decent x-small"-->
+* Point c
+
+--
 
 ## Syntax highlighting   
 
@@ -114,9 +122,12 @@ with forced line break!
 ```java [1-6|3-5]
 public class TheFirst extends Object
 {
-	public static void main(String[] args)
-	{
-	}
+  
+public static void main(String[] args)
+  
+{
+  
+}
 }
 ```
 
@@ -193,6 +204,72 @@ String switchExpressionPreview13(Direction way) {
   \dot{z} & = -\beta z + xy
   \end{aligned} $$`
 
+--
+
+## Being subtle
+
+* Point a
+* Point b   
+<span>(but that is not important)</span><!-- .element: class="decent x-small"-->
+* Point c
+
+--
+
+## Images
+
+<span>To say it with
+[Dilbert](https://dilbert.com/strip/1995-12-10):</span><!-- .element: class="decent x-small"-->
+
+![](https://assets.amuniversal.com/0e1eaf909fcf012f2fe600163e41dd5b)
+
+--
+
+## Transitions
+
+---
+
+<!-- .slide:  data-transition="slide"-->
+### The train goes on ...
+* none<!-- .element: class="xx-small"-->  
+Switch backgrounds instantly
+* fade<!-- .element: class="xx-small"-->  
+Cross fade — default for background transitions
+* slide<!-- .element: class="xx-small"-->  
+Slide between backgrounds — default for slide transitions
+* convex<!-- .element: class="xx-small"-->  
+Slide at a convex angle
+* concave<!-- .element: class="xx-small"-->  
+Slide at a concave angle
+* zoom<!-- .element: class="xx-small"-->  
+Scale the incoming slide up so it grows in from the center of the screen
+---
+<!-- .slide:  data-transition="slide"-->
+### and on …
+* none<!-- .element: class="xx-small"-->  
+Switch backgrounds instantly
+* fade<!-- .element: class="xx-small"-->  
+Cross fade — default for background transitions
+---
+<!-- .slide:  data-transition="convex-in concave-out"-->
+### and stops.
+* fade<!-- .element: class="xx-small"-->  
+Cross fade — default for background transitions
+* slide<!-- .element: class="xx-small"-->  
+Slide between backgrounds — default for slide transitions
+---
+<!-- .slide:  data-transition="fade-in fade-out"-->
+### (Passengers entering and leaving)
+* slide<!-- .element: class="xx-small"-->  
+Slide between backgrounds — default for slide transitions
+* convex<!-- .element: class="xx-small"-->  
+Slide at a convex angle
+---
+<!-- .slide:  data-transition="fade"-->
+### And it starts again.
+* convex<!-- .element: class="xx-small"-->  
+Slide at a convex angle
+* concave<!-- .element: class="xx-small"-->  
+Slide at a concave angle
 --
 
 # Thanks & Credits

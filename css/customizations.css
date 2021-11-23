@@ -17,3 +17,12 @@ li.mdfa {
     font-family: 'FontAwesome';
     font-style: normal;
 }
+.x-small{
+font-size: 83% !important;
+}
+.xx-small{
+font-size: 70% !important;
+}
+.decent{
+color: #808080a0;
+}
