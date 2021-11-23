@@ -2,6 +2,26 @@
 
 --
 
+## Typography
+
+---
+
+## Quotes
+
+> Quotes are ~~hard~~ easy
+> to write
+
+---
+
+## Styles
+
+* normal
+* **bold**
+* *italics*
+* `code`
+
+--
+
 ## Lists
 
 ---
@@ -182,6 +202,26 @@ String switchExpressionPreview13(Direction way) {
 - ② <!-- .element: class="co"-->`->` instead of `:` → no `break;` necessary!
 - ③ <!-- .element: class="co"-->Lambdas can be used to. For _expressions_ they must `yield` a value [version]#13#
 - ④ <!-- .element: class="co"-->`default` can be ommitted if a) no expression or b) `enum` with every value handled
+
+---
+
+#### Try-with-resources now support „effectively final“ variables
+
+```java
+var inputStream = new FileInputStream(".gitignore");
+try (inputStream) { … }
+```
+
+#### Private methods in Interfaces<!-- .element: class="fragment" data-fragment-index="2" -->
+
+```java
+interface Version {
+    byte[] digits();
+    default String text() { return text(digits()); }
+    private String text(byte[] version) { … }
+}
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
 --
 
