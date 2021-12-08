@@ -32,10 +32,10 @@ font-size: 0.48em !important;
 .decent{
 color: #808080a0;
 }
-.reveal p code, li code{
+.reveal p code , li code{
 border-radius: 5px;
-padding: 1px 3px;
-border: 1px solid rgba(255,255,255,.4);
+/*padding: 1px 3px;
+*/border: 1px solid rgba(255,255,255,.4);
 background: #40404040;
 white-space: nowrap;
 }
